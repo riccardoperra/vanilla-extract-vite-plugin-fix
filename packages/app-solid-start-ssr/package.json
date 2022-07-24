@@ -1,0 +1,26 @@
+{
+  "name": "app-solid-start-ssr",
+  "scripts": {
+    "dev": "solid-start dev",
+    "build": "solid-start build",
+    "start": "solid-start start"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@vanilla-extract/vite-plugin": "^3.2.1",
+    "solid-app-router": "^0.4.1",
+    "solid-js": "^1.4.8",
+    "solid-meta": "^0.27.3",
+    "solid-start": "next",
+    "solid-start-node": "next",
+    "typescript": "^4.4.3",
+    "undici": "^4.12.2",
+    "vite": "^2.8.6"
+  },
+  "dependencies": {
+    "ui-solid": "workspace:*"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

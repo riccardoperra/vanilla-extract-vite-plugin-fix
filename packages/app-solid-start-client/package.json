@@ -1,0 +1,31 @@
+{
+  "name": "app-solid-start-client",
+  "scripts": {
+    "dev": "solid-start dev",
+    "build": "solid-start build",
+    "start": "solid-start start"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@vanilla-extract/integration": "^5.0.0",
+    "@vanilla-extract/vite-plugin": "3.1.4",
+    "outdent": "^0.8.0",
+    "postcss": "^8.4.14",
+    "postcss-load-config": "^4.0.1",
+    "solid-app-router": "^0.4.1",
+    "solid-js": "^1.4.8",
+    "solid-meta": "^0.27.3",
+    "solid-start": "next",
+    "solid-start-node": "next",
+    "typescript": "^4.4.3",
+    "ui-solid": "workspace:*",
+    "undici": "^4.12.2",
+    "vite": "^2.8.6"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "@vanilla-extract/css": "^1.7.2"
+  }
+}
